@@ -1,0 +1,23 @@
+.about-body {
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-page-banner {
+    margin-top: 60px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/file-20240509-20-b53zle.avif);
+}
+
+.about-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-text {
+    width: 80%;
+    padding: 20px;
+}

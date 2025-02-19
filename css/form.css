@@ -1,0 +1,74 @@
+.form-container {
+    background: var(--orange);
+    width: 100%;
+    min-height: 100vh;
+    padding: 4rem 0;
+    position: relative;
+}
+/* //////////////////////////////// */
+.form-container::before {
+    content: '';
+    position: absolute;
+    height: 350px;
+    top: -19%;
+    left: 3%;
+    width: 347px;
+    background-size: 225px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    background: url(./images/95dba71d361cfbff61aeb2a5c19c151hc\ 1.png);
+}
+
+.form-container::after {
+    content: '';
+    position: absolute;
+    background: url(images/b038334a25c534777772d757483e077c3fb0a\ 1.png);
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 340px;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+/* ////////////////////////////////// */
+
+.form-container h1 {
+    text-transform: uppercase;
+    margin: 2rem 0;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+.form-container form {
+    width: 60%;
+    margin: 1rem auto;
+    background: rgb(255 255 255/80%);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container form label {
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.form-container form input {
+    width: 85%;
+}
+
+.form-container form textarea {
+    width: 85%;
+    height: 200px;
+}
+
+.form-container form button {
+    width: 85%;
+    background: var(--orange);
+    border: none;
+}

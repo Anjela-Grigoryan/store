@@ -1,0 +1,93 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 101;
+    transform: .3s;
+}
+header.scrolled{
+    background: #fff;
+    box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+header.scrolled a:hover {
+    color: var(--orange);
+}
+
+.flex {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.flex a {
+    color: #000;
+}
+
+.flex .icons {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    cursor: pointer;
+}
+
+.flex .icons i:hover {
+    color: #fff;
+}
+
+.header .user-box {
+    position: absolute;
+    top: 120%;
+    right: 0rem;
+    background: rgb(255 255 255/ 80%);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 1rem;
+    text-align: center;
+    width: 20rem;
+    transform: scale(0);
+    transform-origin: top right;
+    line-height: 2;
+}
+
+.header .user-box.active {
+    transform: scale(1.0);
+    transition: .2s linear;
+}
+
+.logout-btn {
+    width: 170px;
+    height: 40px;
+    border-radius: .5rem;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1rem;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.navbar a:hover,
+header .icons i :hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .icons {
+    display: flex;
+}
+
+#menu-btn {
+    display: none;
+}

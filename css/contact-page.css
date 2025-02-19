@@ -1,0 +1,20 @@
+.contact_container {
+    margin-top: 120px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_container .info {
+    width: 35%;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact_form {
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: var(--box-shadow);
+}
